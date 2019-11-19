@@ -1,0 +1,42 @@
+{
+  "name": "twitterclone",
+  "version": "1.0.0",
+  "description": "Portfolio Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Danish Ali",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-flash": "0.0.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.2",
+    "hbs": "^4.0.1",
+    "mongoose": "^4.9.7",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport.socketio": "^3.7.0",
+    "socket.io": "^1.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malikdaniali/twitterclone.git"
+  },
+  "keywords": [
+    "Clone",
+    "Twitter"
+  ],
+  "bugs": {
+    "url": "https://github.com/malikdaniali/twitterclone/issues"
+  },
+  "homepage": "https://github.com/malikdaniali/twitterclone#readme"
+}
